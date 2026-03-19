@@ -43,17 +43,17 @@ export const STYLE = () => ({
     flexWrap: 'wrap',
     gap: '10px',
     borderRadius: '12px',
-    border: `1px solid var(--vp-c-bg-soft)`,
+    border: `1px solid var(--vp-c-bg)`,
     backgroundColor: `var(--vp-c-bg-soft)`,
     boxSizing: 'border-box',
     width: '100%',
     height: '130px',
-    transition: 'border-color 0.25s, background-color 0.25s'
+    transition: 'all 0.25s'
   }),
   img: inlineStyle({
     borderRadius: '0px 12px 12px 0px',
     maxWidth: '40%',
-    height: '129px',
+    height: '128px',
     flexShrink: 0,
     objectFit: 'contain',
     overflow: 'hidden'
