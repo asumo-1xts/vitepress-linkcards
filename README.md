@@ -76,12 +76,12 @@ As shown in [Usage](#usage), you can specify the target window in which to open 
 
 You can customize:
 
-| Property | **default** |
-| :--- | --- |
-| Border color | `var(--vp-c-bg)` |
-| Background color | `var(--vp-c-bg-soft)` |
-| Border color when hovered | none |
-| Background color when hovered | none |
+| Property                      | **default**           |
+| :---------------------------- | --------------------- |
+| Border color                  | `var(--vp-c-bg)`      |
+| Background color              | `var(--vp-c-bg-soft)` |
+| Border color when hovered     | none                  |
+| Background color when hovered | none                  |
 
 #### `docs/.vitepress/theme/custom.css`
 
