@@ -1,9 +1,13 @@
 {
-  "entryPoints": ["../src"],
+  "entryPoints": [
+    "../src"
+  ],
   "entryPointStrategy": "expand",
   "out": "../docs",
-  "plugin": ["typedoc-theme-hierarchy"],
+  "plugin": [
+    "typedoc-theme-hierarchy"
+  ],
   "theme": "hierarchy",
   "tsconfig": "../tsconfig.json",
-  "name": "vitepress-linkcard"
+  "name": "vitepress-linkcards"
 }
