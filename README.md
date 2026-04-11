@@ -1,16 +1,16 @@
 <h1 align="center">
-vitepress-linkcard
+vitepress-linkcards
 </h1>
 
 <div align="center">
 
-**A VitePress plugin to generate a pretty linkcard with OGP.**
+**A VitePress plugin to generate pretty linkcards with OGP.**
 
-You can see: [A blog generated with this plugin](https://asumoranda.com/posts/10-vitepress-linkcard.html) | [Docs by TypeDoc](https://asumo-1xts.github.io/vitepress-linkcard/)
+You can see: [A blog generated with this plugin](https://asumoranda.com/posts/10-vitepress-linkcard.html) | [Docs by TypeDoc](https://asumo-1xts.github.io/vitepress-linkcards/)
 
-[![NPM Version](https://img.shields.io/npm/v/vitepress-linkcard?style=flat&logo=npm&logoColor=white&label=npmjs&color=%23CB3837)](https://www.npmjs.com/package/vitepress-linkcard)
+[![NPM Version](https://img.shields.io/npm/v/vitepress-linkcards?style=flat&logo=npm&logoColor=white&label=npmjs&color=%23CB3837)](https://www.npmjs.com/package/vitepress-linkcards)
 [![VitePress](https://img.shields.io/badge/For_VitePress-v1_|_v2-%235C73E7?logo=vitepress&logoColor=white)](https://vuejs.github.io/vitepress/v1]/)
-[![NPM License](https://img.shields.io/npm/l/vitepress-linkcard)](/LICENSE)
+[![NPM License](https://img.shields.io/npm/l/vitepress-linkcards)](/LICENSE)
 
 [![Yarn](https://img.shields.io/badge/Built_with_Yarn-v4.9.2-%232C8EBB?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 [![Oxc](https://img.shields.io/badge/Oxc-%2300F7F1?logo=oxc&logoColor=white&label=Lint%20and%20Format%20with&labelColor=gray)](https://oxc.rs/)
@@ -26,9 +26,9 @@ This plugin was forked from [markdown-it-link-to-card](https://github.com/luckry
 ### Install
 
 ```shell
-npm i -D vitepress-linkcard     # npm
-yarn add -D vitepress-linkcard  # yarn
-pnpm add -D vitepress-linkcard  # pnpm
+npm i -D vitepress-linkcards    # npm
+yarn add -D vitepress-linkcards # yarn
+pnpm add -D vitepress-linkcards # pnpm
 ```
 
 ### Usage
@@ -37,8 +37,8 @@ pnpm add -D vitepress-linkcard  # pnpm
 
 ```ts
 import { defineConfig } from 'vitepress'
-import { linkToCardPlugin } from 'vitepress-linkcard'
-import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
+import { linkToCardPlugin } from 'vitepress-linkcards'
+import type { LinkToCardPluginOptions } from 'vitepress-linkcards'
 
 export default defineConfig({
   // ...
@@ -88,12 +88,12 @@ You can customize:
 ```css
 /* For example: like "Features" in VitePress */
 
-.vitepress-linkcard-container {
+.vitepress-linkcards-container {
   border-color: #00000000 !important;
   background-color: var(--vp-c-bg-soft) !important;
 }
 
-.vitepress-linkcard-container:hover {
+.vitepress-linkcards-container:hover {
   border-color: var(--vp-c-brand-1) !important;
   background-color: var(--vp-c-bg-soft) !important;
 }
@@ -117,7 +117,7 @@ export default {
 
 ## Other specifications
 
-### `.linkcard_cache.json`
+### `.linkcards_cache.json`
 
 It is generated automatically in `docs/` and cache all the parsed metadata.
 
