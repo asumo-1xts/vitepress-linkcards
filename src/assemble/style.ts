@@ -40,7 +40,7 @@ export const STYLE = () => ({
   container: inlineStyle({
     display: 'flex',
     alignItems: 'center',
-    flexWrap: 'wrap',
+    flexWrap: 'nowrap',
     gap: '10px',
     borderRadius: '12px',
     border: `1px solid var(--vp-c-bg)`,
@@ -48,15 +48,14 @@ export const STYLE = () => ({
     boxSizing: 'border-box',
     width: '100%',
     height: '130px',
-    transition: 'all 0.25s'
+    transition: 'all 0.25s',
+    overflow: 'hidden'
   }),
   img: inlineStyle({
-    borderRadius: '0px 12px 12px 0px',
     maxWidth: '40%',
-    height: '128px',
     flexShrink: 0,
     objectFit: 'contain',
-    overflow: 'hidden'
+    order: 2
   }),
   texts: inlineStyle({
     flex: '1 1 0%',
