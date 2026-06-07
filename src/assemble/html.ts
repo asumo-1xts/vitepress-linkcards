@@ -43,6 +43,15 @@ export const generateCardDomFragment: CardDomRender = (data, options) => {
           `Contribute to ${title} development by creating an account on GitHub.`,
           ''
         ) || ''
+  } else if (domain == 'zenn.dev') {
+    title =
+      data.title?.split(':')[0].replace('\" data-next-head=\"', '') ||
+      'No title'
+    description =
+      description?.replace(
+        `\" name="zenn:description" data-next-head=\"`,
+        ''
+      ) || ''
   } else {
     title = data.title || 'No title'
     description = data.description || ''

@@ -123,11 +123,6 @@ It is generated automatically in `docs/` and cache all the parsed metadata.
 
 You can move it to root dir if needed.
 
-### Special handling for `github.com`
+### Special handlings for `github.com` and `zenn.dev`
 
-When the domain is `github.com`, trimming is performed as shown in the following example to avoid duplication of the title and description.
-
-|        | Title                                                                                     | Description                                                                                                                                 |
-| ------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
-| After  | asumo-1xts/vitepress-linkcard                                                             | A VitePress plugin to generate a pretty linkcard.                                                                                           |
+This plugin has special handling for `github.com` and `zenn.dev` to display their metadata correctly.
